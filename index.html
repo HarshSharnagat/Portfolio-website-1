@@ -1,162 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="Harsh Sharnagat - Frontend Developer Portfolio">
+
     <title>Harsh Sharnagat | Portfolio</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
-<header class="header">
-    <a href="#about" class="logo">Harsh Sharnagat</a>
+    <!-- ================= HEADER ================= -->
 
-    <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <header class="header">
 
-    <i class="fa-solid fa-bars" id="menu-icon" aria-label="Open menu"></i>
+        <a href="#about" class="logo">
+            Harsh Sharnagat
+        </a>
 
-    <a class="visit-btn" href="https://github.com/HarshSharnagat" target="_blank" rel="noopener noreferrer">
-        Visit GitHub
-    </a>
-</header>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
 
-<section id="about" class="about">
-    <div class="about-container">
-        <img src="profile.jpeg">
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
 
-        <div class="info-box">
-            <div class="text">
-                <h3>Hi, I'm</h3>
-                <h1>Harsh Sharnagat</h1>
-                <span>Frontend Developer</span>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Mobile Menu -->
+        <i
+            class="fa-solid fa-bars"
+            id="menu-icon"
+            aria-label="Open menu">
+        </i>
+
+        <a
+            class="visit-btn"
+            href="https://github.com/HarshSharnagat"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            Visit GitHub
+
+        </a>
+
+    </header>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <div class="about-container">
+
+            <!-- Profile Image -->
+            <img
+                src="profile.jpeg"
+                alt="Harsh Sharnagat profile picture"
+                class="profile-image">
+
+            <div class="info-box">
+
+                <div class="text">
+
+                    <h3>Hi, I'm</h3>
+
+                    <h1>Harsh Sharnagat</h1>
+
+                    <span>Frontend Developer</span>
+
+                </div>
+
+
+                <!-- Buttons -->
+
+                <div class="btn-group">
+
+                    <a
+                        class="btn"
+                        href="#contact">
+
+                        Download CV
+
+                    </a>
+
+                    <a
+                        class="btn"
+                        href="#contact">
+
+                        Contact
+
+                    </a>
+
+                </div>
+
+
+                <!-- Social Links -->
+
+                <div class="socials">
+
+                    <a
+                        href="https://github.com/HarshSharnagat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub Profile">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/harsh-sharnagat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn Profile">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                    </a>
+
+                </div>
+
             </div>
 
-            <div class="btn-group">
-                <a class="btn" href="#contact">Download CV</a>
-                <a class="btn" href="#contact">Contact</a>
+        </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience" class="experience">
+
+        <h2 class="section-title">
+            Experience
+        </h2>
+
+
+        <div class="experience-info">
+
+            <div class="grid">
+
+                <!-- Frontend -->
+
+                <div class="grid-card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <span>
+                        Frontend Development
+                    </span>
+
+                    <h3>
+                        Fresher
+                    </h3>
+
+                    <p>
+                        Building responsive and user-friendly
+                        web interfaces using HTML, CSS and JavaScript.
+                    </p>
+
+                </div>
+
+
+                <!-- Cyber Security -->
+
+                <div class="grid-card">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <span>
+                        Cyber Security
+                    </span>
+
+                    <h3>
+                        Fresher
+                    </h3>
+
+                    <p>
+                        Interested in cybersecurity,
+                        security-focused applications and
+                        digital threat protection.
+                    </p>
+
+                </div>
+
+
+                <!-- System Design -->
+
+                <div class="grid-card">
+
+                    <i class="fa-solid fa-laptop"></i>
+
+                    <span>
+                        System Design
+                    </span>
+
+                    <h3>
+                        Fresher
+                    </h3>
+
+                    <p>
+                        Learning how to structure scalable
+                        applications and break complex systems
+                        into smaller components.
+                    </p>
+
+                </div>
+
+
+                <!-- UI UX -->
+
+                <div class="grid-card">
+
+                    <i class="fa-solid fa-file-code"></i>
+
+                    <span>
+                        UI/UX Design
+                    </span>
+
+                    <h3>
+                        Fresher
+                    </h3>
+
+                    <p>
+                        Creating clean layouts and interfaces
+                        with a focus on usability and
+                        visual consistency.
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class="socials">
-                <a href="https://github.com/HarshSharnagat" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                    <i class="fa-brands fa-github"></i>
+
+            <!-- Experience Image -->
+
+            <img
+                src="profile.jpeg"
+                alt="Harsh Sharnagat"
+                class="experience-image">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">
+            Recent Projects
+        </h2>
+
+
+        <div class="projects-grid">
+
+
+            <!-- Project 1 -->
+
+            <div class="project-card">
+
+                <img
+                    src="voiceshield.png"
+                    alt="VoiceShield project">
+
+                <h3>
+                    VoiceShield
+                </h3>
+
+                <p>
+                    AI-powered voice assistant concept for
+                    enhanced voice-cloning attack detection
+                    and security.
+                </p>
+
+                <div class="btn-group">
+
+                    <a
+                        class="btn"
+                        href="#contact">
+
+                        Live Demo
+
+                    </a>
+
+                    <a
+                        class="btn"
+                        href="https://github.com/HarshSharnagat"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub Repo
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 2 -->
+
+            <div class="project-card">
+
+                <img
+                    src="cybershield.png"
+                    alt="CyberShield project">
+
+                <h3>
+                    CyberShield
+                </h3>
+
+                <p>
+                    Cybersecurity dashboard concept for
+                    monitoring security posture, scans
+                    and digital threats.
+                </p>
+
+                <div class="btn-group">
+
+                    <a
+                        class="btn"
+                        href="#contact">
+
+                        Live Demo
+
+                    </a>
+
+                    <a
+                        class="btn"
+                        href="https://github.com/HarshSharnagat"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub Repo
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 3 -->
+
+            <div class="project-card">
+
+                <img
+                    src="project-x.png"
+                    alt="Project X">
+
+                <h3>
+                    Project X
+                </h3>
+
+                <p>
+                    Cybersecurity-themed project concept
+                    focused on a modern dark security
+                    interface and experience.
+                </p>
+
+                <div class="btn-group">
+
+                    <a
+                        class="btn"
+                        href="#contact">
+
+                        Live Demo
+
+                    </a>
+
+                    <a
+                        class="btn"
+                        href="https://github.com/HarshSharnagat"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub Repo
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+        class="contact"
+        id="contact">
+
+        <div class="input-box">
+
+            <h2 class="section-title">
+                Contact Me
+            </h2>
+
+
+            <form
+                class="contact-form"
+                action="mailto:harshsharnagat31@gmail.com"
+                method="post"
+                enctype="text/plain">
+
+                <div class="input">
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </div>
+
+
+                <button
+                    class="btn"
+                    type="submit">
+
+                    Submit
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <ul>
+
+            <li>
+                <a href="#about">
+                    About
                 </a>
-                <a href="https://www.linkedin.com/in/harsh-sharnagat" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                    <i class="fa-brands fa-linkedin"></i>
+            </li>
+
+            <li>
+                <a href="#experience">
+                    Experience
                 </a>
-            </div>
-        </div>
-    </div>
-</section>
+            </li>
 
-<section id="experience" class="experience">
-    <h2 class="section-title">Experience</h2>
+            <li>
+                <a href="#projects">
+                    Projects
+                </a>
+            </li>
 
-    <div class="experience-info">
-        <div class="grid">
-            <div class="grid-card">
-                <i class="fa-solid fa-code"></i>
-                <span>Frontend Development</span>
-                <h3>Fresher</h3>
-                <p>Building responsive and user-friendly web interfaces using HTML, CSS and JavaScript.</p>
-            </div>
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-shield-halved"></i>
-                <span>Cyber Security</span>
-                <h3>Fresher</h3>
-                <p>Interested in cybersecurity, security-focused applications and digital threat protection.</p>
-            </div>
+        </ul>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-laptop"></i>
-                <span>System Design</span>
-                <h3>Fresher</h3>
-                <p>Learning how to structure scalable applications and break complex systems into smaller components.</p>
-            </div>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-file-code"></i>
-                <span>UI/UX Design</span>
-                <h3>Fresher</h3>
-                <p>Creating clean layouts and interfaces with a focus on usability and visual consistency.</p>
-            </div>
-        </div>
+        <p class="copyright">
+            © 2026 Harsh Sharnagat | All rights reserved
+        </p>
 
-        <img src="profile.jpeg">
-    </div>
-</section>
+    </footer>
 
-<section id="projects" class="projects">
-    <h2 class="section-title">Recent Projects</h2>
 
-    <div class="projects-grid">
-        <div class="project-card">
-            <img src="voiceshield.png">
-            <h3>voiceshield.png</h3>
-            <p>AI-powered voice assistant concept for enhanced voice-cloning attack detection and security.</p>
-            <div class="btn-group">
-                <a class="btn" href="#contact">Live Demo</a>
-                <a class="btn" href="https://github.com/HarshSharnagat" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-            </div>
-        </div>
+    <!-- JavaScript -->
 
-        <div class="project-card">
-            <img src="cybershield.png">
-            
-            <h3>CyberShield</h3>
-            <p>Cybersecurity dashboard concept for monitoring security posture, scans and digital threats.</p>
-            <div class="btn-group">
-                <a class="btn" href="#contact">Live Demo</a>
-                <a class="btn" href="https://github.com/HarshSharnagat" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-            </div>
-        </div>
+    <script src="script.js"></script>
 
-        <div class="project-card">
-            <img src="project-x.png">
-            <h3>Project X</h3>
-            <p>Cybersecurity-themed project concept focused on a modern dark security interface and experience.</p>
-            <div class="btn-group">
-                <a class="btn" href="#contact">Live Demo</a>
-                <a class="btn" href="https://github.com/HarshSharnagat" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="contact" id="contact">
-    <div class="input-box">
-        <h2 class="section-title">Contact Me</h2>
-
-        <form class="contact-form" action="mailto:harshsharnagat31@gmail.com" method="post" enctype="text/plain">
-            <div class="input">
-                <input type="email" name="email" placeholder="Enter your email" required>
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-            <button class="btn" type="submit">Submit</button>
-        </form>
-    </div>
-</section>
-
-<footer>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-    <p class="copyright">© 2026 Harsh Sharnagat | All rights reserved</p>
-</footer>
-
-<script src="script.js"></script>
 </body>
+
 </html>
